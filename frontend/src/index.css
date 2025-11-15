@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0f1724;
+  --card: #e6eef9;
+  --accent: #4cc9ff;
+}
+
+body {
+  @apply bg-[var(--bg)];
+  font-family: Inter, system-ui, Arial;
+}
+
+.card {
+  background: var(--card);
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.header-gradient {
+  background: linear-gradient(90deg, #4cc9ff 0%, #3b82f6 100%);
+}
+
+.card * {
+  color: #000;
+}
+
+.table-row:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+

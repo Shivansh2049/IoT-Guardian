@@ -1,0 +1,11 @@
+flask
+flask_sqlalchemy
+flask_cors
+python-dotenv
+python-nmap
+requests
+scapy
+scikit-learn
+pandas
+joblib
+flask_executor

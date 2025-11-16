@@ -1,5 +1,22 @@
-node_modules/
-dist/
-build/
+This ensures `node_modules`, `__pycache__`, etc. don’t get pushed.
+
+```gitignore
+# Python
+__pycache__/
+*.pyc
+
+# Flask
+instance/
+scans/
+
+# React
+frontend/node_modules/
+frontend/.cache/
+frontend/build/
+
+# Environment Files
 .env
+
+# OS Files
 .DS_Store
+Thumbs.db
